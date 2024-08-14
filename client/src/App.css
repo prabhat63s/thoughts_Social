@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap");
+
+body {
+  font-family: "Syne", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+/* For WebKit (Chrome, Safari, newer versions of Opera) */
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+  }
+   
+  ::-webkit-scrollbar-track {
+    background: #565656;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #d7d7d7;
+  }
+  
+  
+  @media (max-width: 1024px) {
+    .text-xl p {
+      display: none;
+    }
+  }
+  
+  @media (min-width: 1025px) {
+    .text-xl p {
+      display: block;
+    }
+  }
+
+
+  
